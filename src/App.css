@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Maitree:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root {
+  --color-primary: #faf3f3;
+  --color-secondary: #a7bbc7;
+  --color-terciary: #da7f8f;
+  /* 4to color #e1e5ea */
+  /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.178) */
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: 'Open Sans Condensed', sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  /* color: #e2c7cc; */
+  /* color: #a16c77 */
+  /* color:#fcf6f6 */
+  
+  
+}
+
+/* .navbar{
+  background-color: var(--color-secondary);
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  height: fit-content
+}
+
+.navbarlogo2{
+  height: 60px ;
+  margin-right: 2%;
+} */
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color:var(--color-primary);
+  
+}
+
+/* .nav-item{
+  color: var(--color-primary);
+} */
+
+.nav-item a:hover{
+  color: var(--color-terciary);
+}
+
+.nav-link:hover{
+  color: var(--color-primary);
+}
+
+.nav-link:focus{
+  color: var(--color-primary);
+}
+
+.dropdown-menu{
+  background-color: var(--color-primary);
+  background-color:#dee0e2 ;
+  /* background-color:#be818d */
+}
+
+.dropdown-menu li a{
+  color: var(--color-secondary);
+  /* color: var(--color-terciary); */
+  font-size: 1.2rem;
+}
+
+.dropdown-menu li a:hover{
+  color: var(--color-terciary);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn{
+  background-color: var(--color-terciary);
+  border: var(--color-terciary);
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+
+
+.btn:hover{
+  background-color:#e7eaee  ;
+  border: #e7eaee ;
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+}
+
+.btn:focus{
+  background-color: var(--color-terciary);
+  border: var(--color-terciary);
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+
+
+.section{ 
+  margin-top:3%;
+}
+
+.BOTONMENU{
+  background-color: var(--color-terciary);
+  border: solid 2px #da7f8f;
+}
+
+.fas{
+  margin-top: 4px;
+  color: var(--color-terciary);
+}
+
